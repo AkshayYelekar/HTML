@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>PRoblem 8</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;color: cornflowerblue;">Feedback Form</h1>
+        <div style="font-size:larger;font-family:Georgia, 'Times New Roman', Times, serif;color:cadetblue;width:100%;text-align: center;">It is the feedback form we are collecting from our customers If they are facing any issues while purchasing items from our website
+           <br> If you face any diificulty while purchasing items.Please feel this form and kindly give suggestions.We always welcomes feedback and suggestion from customers like you.Thank you in advance...!
+        </div> <hr style="width: 50%;align-items: ;">
+        <form action="submit">
+            <div style="text-align: center;">FORM</div>
+            <table border="2px" align="center" style="border-color:black;border-radius: 10px;">
+                <tr>
+                    <td width="200px"><legend>Type of problem</legend></td>
+                    <td><input type="radio" name="pro" id="pro">Technical(Website is down) <br>
+                    <input type="radio" name="pro" id="pro">Product not available <br>
+                    <input type="radio" name="pro" id="pro">Missing Information about product</tr><br>
+                </tr>
+                <tr>
+                    <td><legend for="ename">Username</legend></td>
+                    <td><input type="text" name="ename" id="ename" palceholder="Enter name" required></td>
+                </tr>
+                <tr>
+                    <td><legend for="em">Email</legend></td>
+                    <td><input type="text" name="em" id="em" palceholder="Enter Email" required></td>
+                </tr>
+                <tr>
+                    <td><legend for="lo">Location</legend></td>
+                    <td><input type="text" name="lo" id="lo" palceholder="Enter location" required></td>
+                </tr>
+                <tr>
+                    <td><legend for="no">Phone no</legend></td>
+                    <td><input type="number" name="no" id="no" palceholder="Enter mobile" ></td>
+                </tr>
+                <tr>
+                    <td><legend>Description of Problem</legend></td>
+                    <td><textarea name="dop" id="dop" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><legend for="n">Do you want notification of problem solved</legend></td>
+                    <td><input type="radio" name="n" id="n">YES <br>
+                        <input type="radio" name="n" id="n">NO </td>
+                </tr>
+            </table> <br>
+        
+                <div style="text-align: center;"><input type="submit" name="sub" id="sub"></div>
+            
+
+        </form>
+
+    </body>
+</html>

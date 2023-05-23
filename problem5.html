@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>PRoblem 7</title>
+    </head>
+    <body>
+        <table border="2px" style="background-color:lightpink;border-width: 2px;">
+            <tr>
+                <td><label for="uid">Name</label></td>
+                <td><input type="text" name="uname" id="uid" required autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="ecode">Employee Code</label></td>
+                <td><input type="number" name="ecode" id="ecode" required></td>
+            </tr>
+            <tr>
+                <td><label for="dept">Department</label></td>
+                <td>
+                <input type="radio" name="dept" id="admin">admin <br>
+                <input type="radio" name="dept" id="hr">HR <br>
+                <input type="radio" name="dept" id="technical">Technical <br>
+                <input type="radio" name="dept" id="accounts">Accounts <br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="jdate">Date Of Joining</label></td>
+                <td><input type="date" name="jdate" id="jdate"></td>
+            </tr>
+            <tr>
+                <td><label for="addr">Address</label></td>
+                <td><textarea name="addr" id="addr" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="attd">Training Program Attended</label></td>
+                <td>
+                    <input type="checkbox" name="attd1" id="html">HTML/DHTML <br>
+                    <input type="checkbox" name="attd2" id="html">Java <br>
+                    <input type="checkbox" name="attd3" id="html">Client server <br>
+                    <input type="checkbox" name="attd4" id="html">.Net <br>
+                </td>
+             </tr>
+             <tr>
+                <td><label for="trai">Training Program needs to attend</label></td>
+                <td>
+                    <select name="course" id="cid">
+                        <option value="javascript">javascript</option>
+                        <option value="Nodejs">NodeJS</option>
+                        <option value="AngularJS">AngularJS</option>
+                        <option value="EXpressJS">ExpressJS</option>
+                        <option value="ReactJS">ReactJS</option>
+                    </select>
+                </td>
+             </tr>
+             <tr>
+                <td><label for="sinfo">Contact Us</label></td>
+                <td><a href="mailto:xyz@123@gmail.com">xyz@123</a></td>
+             </tr>
+        </table>
+    </body>
+</html>

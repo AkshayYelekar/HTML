@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>PRoblem 6</title>
+    </head>
+    <body>
+        <h2>Internet Service Usage</h2>
+        This survey is being conducted to help identify the internet usage pattern of Customer. <br>
+        Please take moment to complete and submit this short form.Thank you for your co-operation. <br> <br>
+        <form action="submit">
+            <table>
+                <tr>
+                    <td style="width: 400px;height: 100px;"><label for="ctype">What type of connection do you have? <br> (Select One)</label></td>
+                    <td>
+                        <select name="ctype" id="ctype">
+                            <option value="Dial-Up">Dial-Up</option>
+                            <option value="DSL">DSL</option>
+                            <option value="High speed Connection">High speed Connection</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr> 
+                <tr>
+                    <td style="height:100px"><label for="tcom">What Type of computer do you have Home?</label></td>
+                    <td>
+                        <input type="radio" name="tcom" id="tid">Desktop
+                        <input type="radio" name="tcom" id="tid1">Laptop
+                    </td>
+                </tr>
+                <tr style="height:100px">
+                    <td><label for="mres">How would ypu describe your main reason for using computer?</label></td>
+                    <td>
+                        <input type="radio" name="mres" id="mres1" values="1">To do work related activities <br>
+                        <input type="radio" name="mres" id="mres2">To do school related activiteis <br>
+                        <input type="radio" name="mres" id="mres3">For entertainment purpose <br>
+                        <input type="radio" name="mres" id="mres4">Other activities <br>
+                    </td>
+                </tr>
+                <tr style="height:200px">
+                    <td>
+                        <fieldset>
+                            <legend>Types of sites visited</legend>
+                            What types of websites do you visit often? <br> check all that apply. <br>
+                            <input type="checkbox" name="website" id="web1">Self improvement <br>
+                            <input type="checkbox" name="website" id="web2">Entertainment <br>
+                            <input type="checkbox" name="website" id="web3">News and Sports <br>
+                            <input type="checkbox" name="website" id="web4">Reference <br>
+                            <input type="checkbox" name="website" id="web5">Email
+                        </fieldset>
+                    </td>
+
+                    <td>
+                        <fieldset>
+                            <legend>time spent using internet</legend><br>
+                            During an average week how long do you spend online? <br> 
+                            <input type="radio" name="website" id="web1">0-3 <br>
+                            <input type="radio" name="website" id="web2">4-6 <br>
+                            <input type="radio" name="website" id="web3">7-10 <br>
+                            <input type="radio" name="website" id="web4">11-14 <br>
+                            <input type="radio" name="website" id="web5">15+
+                        </fieldset>                        
+                    </td>
+                </tr>
+            </table>
+            Please comment your opinions regarding Internet privacy and safety.<br>
+            <textarea width="40%" height="30%"></textarea><br><br><br>
+            <table>
+                <tr >
+                    <td ><label for="fname">First Name</label></td>
+                    <td style="width: 330px;height: 10px;"><input type="text" name="fname" id="fname"></td>
+                    <td><label for="lname">Last Name</label></td>
+                    <td><input type="text" name="lname" id="lname"></td>
+
+                </tr>
+                <tr>
+                    <td ><label for="ag">Age</label></td>
+                    <td style="width: 330px;height: 40radiopx;"><input type="number" name="ag" id="ag"></td>
+                    <td><label for="zip">Zip Code</label></td>
+                    <td><input type="number" name="zip" id="zip"></td>
+                </tr>
+            </table>
+            <!-- <table style="text-align: end;">
+                <tr style="text-align: right">
+                <input type="submit" name="sub" id="sub" >
+                </tr>
+            </table> -->
+            <table>
+                    <tr>
+                        <td style="width: 260px;height: 100px;"></td>
+                    <td style ><input type="submit" name="sub" id="sub" ></td> 
+                    <td style ><input type="reset" name="res" id="res" value="clear form" ></td>
+    
+                    </tr>
+                   <!-- &emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14; <input type="submit" name="sub" id="sub" > -->
+            </table>
+
+
+
+
+        </form>
+    </body>
+</html>
