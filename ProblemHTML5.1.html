@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>html5.1</title>
+        <style>
+            input[type=text]:focus {
+  border: 3px solid #555;
+}
+        </style>
+    </head>
+    <body>
+        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Appoinment Scheduler</h1>
+        <fieldset style="width: 500px;">
+            <form action="submit">
+            <legend>Personal Information</legend> <br>
+            <div>Name</div>
+            <!-- border="1px" style=border-right:2px;border-bottom:2px; -->
+            <input style="border: 3px;border-style: solid;border-color: lightgray;" type="text" id="nm" name="nm"> <br>
+            <div>Telephone Number</div>
+            <input type="tel" id="tn" name="tn"> <br>
+            <div>E-mail address</div> 
+            <input  type="text" id="ea" name="ea"> <br>
+            <div>Date of Birth</div>
+            <input type="date" name="db" id="db"> <br>
+        </fieldset> <br>
+
+        <fieldset style="width: 500px;">
+            <legend>Appoinment Required</legend>
+            <div>What is the rason for your visit?</div>
+            <input type="text" name="r" id="r" placeholder="Enter your reason">
+            <div>Current Pain level</div>
+            <input type="range" name="p" id="p"> <br>
+            <div>Preferred Date</div>
+            <input type="date" name="pd" id="pd" min="2023-05-24"> <br> <br>
+            <div>Preferred time</div>
+            <select name="t" id="t">
+                <option value="10 Am">10 Am</option>
+                <option value="11 Am">11 Am</option>
+                <option value="12 Pm">12 Pm</option>
+                <option value="1 Pm">1 Pm</option>
+                <option value="2 Pm">2 Pm</option>
+                <option value="3 Pm">3 Pm</option>
+                <option value="4 Pm">4 Pm</option>
+                <option value="5 Pm">5 Pm</option>
+            </select>
+        </fieldset> <br>
+       <input style="background-color:lightgray;" type="submit">
+    </form>
+    </body>
+</html>
